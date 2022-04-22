@@ -1,4 +1,4 @@
-
+import contact from "./contact";
 
 export default function navbar(){
 
@@ -32,11 +32,5 @@ export default function navbar(){
         }
         btnContainer.appendChild(btn);
     }
-    
-    
-
-
-
-
     document.body.appendChild(nav)
 }
